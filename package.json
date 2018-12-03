@@ -1,23 +1,12 @@
 {
   "name": "sports-store-ng6-ch7",
   "version": "0.0.0",
-/*  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "json": "json-server data.js -p 3500 -m authMiddleware.js"
-  },*/
- /* "private": true,*/
   "engine": {
     "node": "*",
     "npm": "*"
   },
   "scripts": {
-    "start": "node server.js"/*,
-    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"*/
+    "start": "node server.js"
   },
   "dependencies": {
     "@angular/animations": "^6.0.3",
