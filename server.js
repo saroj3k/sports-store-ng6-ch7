@@ -90,6 +90,13 @@ app.get('/pagecount', function (req, res) {
 });
 */
 
+//saroj - serve GET requests
+app.get('/', function (req, res) {
+    //Render index.html
+    res.render('index.html');
+});
+
+
 // error handling
 app.use(function(err, req, res, next){
   console.error(err.stack);
