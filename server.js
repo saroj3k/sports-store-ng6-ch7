@@ -90,12 +90,16 @@ app.get('/pagecount', function (req, res) {
 });
 */
 
+/*
 //saroj - serve GET requests
 app.get('/', function (req, res) {
     //Render index.html
     res.render('index.html');
 });
+*/
 
+//Modified GET requests
+app.use("/", express.static("./dist/SportsStore"));
 
 // error handling
 app.use(function(err, req, res, next){
