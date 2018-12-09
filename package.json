@@ -3,12 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --port 8080 --host 0.0.0.0 --disable-host-check",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "json": "json-server data.js -p 3500 -m authMiddleware.js"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
